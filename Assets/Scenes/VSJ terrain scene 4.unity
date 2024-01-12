@@ -1677,17 +1677,17 @@ PrefabInstance:
     - target: {fileID: 867423269672991781, guid: f5e4e261a70f1f147a0b3a1525ee1269,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2984.46
+      value: 2879
       objectReference: {fileID: 0}
     - target: {fileID: 867423269672991781, guid: f5e4e261a70f1f147a0b3a1525ee1269,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4009.6
+      value: 3805
       objectReference: {fileID: 0}
     - target: {fileID: 867423269672991781, guid: f5e4e261a70f1f147a0b3a1525ee1269,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 992.53
+      value: 876
       objectReference: {fileID: 0}
     - target: {fileID: 867423269672991781, guid: f5e4e261a70f1f147a0b3a1525ee1269,
         type: 3}
@@ -5184,23 +5184,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
       propertyPath: m_Name
-      value: BlueSuitFree01
+      value: Jeff
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
       propertyPath: m_RootOrder
       value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 12.741405
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 13.106965
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15.250832
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2767.51
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 3035.3
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 976.32
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5229,6 +5241,14 @@ PrefabInstance:
     - target: {fileID: 400004, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400034, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5286
+      objectReference: {fileID: 0}
+    - target: {fileID: 400034, guid: e6ab94ea3d7bfb840aa41680fa79570e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0002238
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
