@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class AnimatorControllerTriggers : MonoBehaviour
 {
-    private Animator anim;
+    [SerializeField] private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -30,7 +30,7 @@ public class AnimatorControllerTriggers : MonoBehaviour
         //To duplicate this code block, select the code between this comment
         if (Input.GetKeyDown(KeyCode.A))
         {
-            anim.SetTrigger("YOUR_TRIGGER_NAME_HERE_INSIDE_THE_QUOTES");
+            animator.SetTrigger("ProximityTrigger");
         }
         //And this comment, then hit CTRL/CMD C to copy, and CTRL/CMD D to paste
         //starting on the line below this one!
