@@ -1368,7 +1368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 464683518}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: house
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1382,7 +1382,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464683517}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2436, y: 2942, z: 931.4965}
+  m_LocalPosition: {x: 2437, y: 2942, z: 931.4965}
   m_LocalScale: {x: 0.7227088, y: 0.5048723, z: 0.77646935}
   m_ConstrainProportionsScale: 0
   m_Children:
