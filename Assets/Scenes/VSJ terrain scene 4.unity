@@ -1781,7 +1781,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Time Warp|| The Swamp
+  m_text: Time Warp - The Swamp
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a0d84163f06a0492aa280d2dccace1ee, type: 2}
   m_sharedMaterial: {fileID: -8885817383169473743, guid: a0d84163f06a0492aa280d2dccace1ee,
@@ -4243,7 +4243,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1127125849
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4255,13 +4255,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 7.45, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1867181533}
   m_Father: {fileID: 1920995744}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0.7, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.8, y: -206}
+  m_AnchoredPosition: {x: -12.45, y: -180.9}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1127125850
@@ -4846,6 +4847,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1478405344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1478405346}
+  - component: {fileID: 1478405345}
+  m_Layer: 0
+  m_Name: CaptionController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1478405345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478405344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f287381f6b44bf79cad4bc06aaa6ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  captionImage:
+  - {fileID: 1127125850}
+  typingSpeed: 0.09
+  keepPastCaptions: 0
+--- !u!4 &1478405346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478405344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3106.3228, y: 4158.665, z: 2702.791}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1526689425
 GameObject:
@@ -12197,18 +12246,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867181532}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5600001, y: 1.7000002, z: 1}
+  m_LocalRotation: {x: -0, y: -0.0061086393, z: -0, w: 0.99998134}
+  m_LocalPosition: {x: 0, y: 0, z: 0.12826686}
+  m_LocalScale: {x: 0.20942307, y: 1.7000002, z: 0.9990381}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1920995744}
+  m_Father: {fileID: 1127125849}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.24, y: 0.5}
-  m_AnchoredPosition: {x: 91, y: -206}
-  m_SizeDelta: {x: 382, y: 50}
+  m_AnchoredPosition: {x: 14.409157, y: 0}
+  m_SizeDelta: {x: 221.398, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1867181534
 MonoBehaviour:
@@ -12404,7 +12453,6 @@ RectTransform:
   - {fileID: 824410132}
   - {fileID: 590884470}
   - {fileID: 1127125849}
-  - {fileID: 1867181533}
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
